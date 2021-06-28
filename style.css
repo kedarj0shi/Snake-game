@@ -1,0 +1,60 @@
+html, body {
+    margin: 7;
+    padding: 7;
+    font-family: cursive;
+    background: #e3ecff;
+    text-align: center;
+}
+
+h1 {
+    background: #B4AEE8;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10 auto;
+    width: 400px;
+    height: 400px;
+    border: solid 10px black;
+    box-shadow: 12px 12px 2px 1px rgba(138, 15, 150, 0.4);
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: rgb(240, 45, 158);
+}
+
+.apple {
+    background-color: blue;
+    
+}
+
+#start {
+    background: #5f51dd;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: cursive;
+    border-style: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;;
+}
+
+#start:hover,
+#start:focus {
+    background: #87df15;
+    color: black;
+}
